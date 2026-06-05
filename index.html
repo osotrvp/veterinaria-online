@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VetCasa — Veterinaria a Domicilio</title>
+</head>
+<body>
+
+  <header>
+    <nav id="navbar">
+      <a href="#inicio">🐾 VetCasa</a>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Reservar hora</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="inicio">
+      <h1>Tu veterinario viene a casa</h1>
+      <p>Consultas veterinarias profesionales sin el estrés del viaje.</p>
+      <a href="#contacto">Reservar consulta</a>
+      <a href="#servicios">Ver servicios</a>
+    </section>
+
+    <section id="nosotros">
+      <h2>Veterinaria profesional, comodidad del hogar</h2>
+      <p>VetCasa nació en 2018 con una misión clara: eliminar el estrés
+      que sienten muchas mascotas al visitar una clínica.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Nuestros servicios</h2>
+      <article>
+        <h3>Consulta general</h3>
+        <p>Revisión completa con equipamiento portátil de última generación.</p>
+      </article>
+      <article>
+        <h3>Vacunación</h3>
+        <p>Plan vacunal completo con certificados oficiales emitidos al instante.</p>
+      </article>
+      <article>
+        <h3>Desparasitación</h3>
+        <p>Tratamientos internos y externos adaptados a cada mascota.</p>
+      </article>
+      <article>
+        <h3>Laboratorio</h3>
+        <p>Toma de muestras en tu hogar. Resultados en 24-48 horas.</p>
+      </article>
+      <article>
+        <h3>Urgencias</h3>
+        <p>Atención de urgencias las 24 h, menos de 60 minutos de llegada.</p>
+      </article>
+      <article>
+        <h3>Nutrición</h3>
+        <p>Dietas personalizadas según edad, raza y estado de salud.</p>
+      </article>
+    </section>
+
+    <section id="planes">
+      <h2>Planes y precios</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Servicio</th>
+            <th scope="col">Básico $15.990</th>
+            <th scope="col">Plus $28.990</th>
+            <th scope="col">Premium $44.990</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Consulta general</td>
+            <td>✓</td><td>✓</td><td>✓</td>
+          </tr>
+          <tr>
+            <td>Vacuna incluida</td>
+            <td>—</td><td>✓</td><td>✓</td>
+          </tr>
+          <tr>
+            <td>Desparasitación</td>
+            <td>—</td><td>✓</td><td>✓</td>
+          </tr>
+          <tr>
+            <td>Examen de laboratorio</td>
+            <td>—</td><td>—</td><td>✓</td>
+          </tr>
+          <tr>
+            <td>Informe médico digital</td>
+            <td>✓</td><td>✓</td><td>✓</td>
+          </tr>
+          <tr>
+            <td>Consulta de seguimiento</td>
+            <td>—</td><td>—</td><td>✓</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="testimonios">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <article>
+        <p>"Mi gata Luna es muy nerviosa. Con VetCasa el veterinario
+        la revisó en su cama favorita."</p>
+        <strong>Valentina M. — Las Condes</strong>
+      </article>
+      <article>
+        <p>"El Dr. Rodríguez vino en 45 minutos cuando mi perro tuvo
+        una reacción alérgica a medianoche."</p>
+        <strong>Rodrigo F. — Providencia</strong>
+      </article>
+      <article>
+        <p>"Tenemos tres perros. Ahora los tres se vacunan en casa
+        en una sola visita."</p>
+        <strong>Carla y José T. — Ñuñoa</strong>
+      </article>
+
+      <h3>Nuestro equipo</h3>
+      <div>
+        <p>👩‍⚕️ <strong>Dra. Isabel Rojas</strong> — Medicina Interna, 10 años exp.</p>
+        <p>👨‍⚕️ <strong>Dr. Matías Rodríguez</strong> — Urgencias, 7 años exp.</p>
+        <p>👩‍⚕️ <strong>Dra. Camila Vega</strong> — Nutrición animal, 5 años exp.</p>
+        <p>👨‍⚕️ <strong>Dr. Andrés Fuentes</strong> — Dermatología, 8 años exp.</p>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>📞 +56 9 1234 5678</p>
+      <p>📧 hola@vetcasa.cl</p>
+      <p>🕐 Lun–Sáb: 8:00–20:00 · Urgencias: 24 h</p>
+
+      <form id="reservaForm" novalidate>
+
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre"
+               placeholder="Tu nombre completo" />
+        <span id="errNombre"></span>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email"
+               placeholder="tu@correo.cl" />
+        <span id="errEmail"></span>
+
+        <label for="asunto">Asunto</label>
+        <select id="asunto" name="asunto">
+          <option value="">— Selecciona un motivo —</option>
+          <option value="consulta">Consulta general</option>
+          <option value="vacunacion">Vacunación</option>
+          <option value="urgencia">Urgencia</option>
+          <option value="laboratorio">Examen de laboratorio</option>
+          <option value="otro">Otro</option>
+        </select>
+        <span id="errAsunto"></span>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5"
+                  placeholder="Cuéntanos sobre tu mascota..."></textarea>
+        <span id="errMensaje"></span>
+
+        <button type="submit">Enviar solicitud</button>
+        <div id="mensajeExito" hidden>
+          ✅ ¡Solicitud enviada! Te contactaremos pronto.
+        </div>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>🐾 VetCasa — Veterinaria a Domicilio</p>
+    <p>+56 9 1234 5678 · hola@vetcasa.cl</p>
+    <p>Lun–Sáb: 8:00–20:00 · Urgencias: 24 h</p>
+    <p>&copy; 2025 VetCasa. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
