@@ -114,73 +114,145 @@
   </div>
 </section>
 
-    <section id="servicios">
+    <section class="servicios" id="servicios">
+  <div class="servicios-container">
+    <div class="servicios-header">
+      <span class="section-label">Lo que hacemos</span>
       <h2>Nuestros servicios</h2>
-      <article>
-        <h3>Consulta general</h3>
-        <p>Revisión completa con equipamiento portátil de última generación.</p>
-      </article>
-      <article>
-        <h3>Vacunación</h3>
-        <p>Plan vacunal completo con certificados oficiales emitidos al instante.</p>
-      </article>
-      <article>
-        <h3>Desparasitación</h3>
-        <p>Tratamientos internos y externos adaptados a cada mascota.</p>
-      </article>
-      <article>
-        <h3>Laboratorio</h3>
-        <p>Toma de muestras en tu hogar. Resultados en 24-48 horas.</p>
-      </article>
-      <article>
-        <h3>Urgencias</h3>
-        <p>Atención de urgencias las 24 h, menos de 60 minutos de llegada.</p>
-      </article>
-      <article>
-        <h3>Nutrición</h3>
-        <p>Dietas personalizadas según edad, raza y estado de salud.</p>
-      </article>
-    </section>
+      <p>Atención veterinaria completa, sin que tu mascota salga de casa.</p>
+    </div>
+    <div class="servicios-grid">
 
-    <section id="planes">
+      <article class="servicio-card">
+        <div class="servicio-img">
+          <span class="servicio-emoji">🩺</span>
+        </div>
+        <div class="servicio-body">
+          <h3>Consulta general</h3>
+          <p>Revisión completa con equipamiento portátil de última generación.</p>
+          <span class="servicio-tag">Perros · Gatos · Conejos</span>
+        </div>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-img">
+          <span class="servicio-emoji">💉</span>
+        </div>
+        <div class="servicio-body">
+          <h3>Vacunación</h3>
+          <p>Plan vacunal completo con certificados oficiales emitidos al instante.</p>
+          <span class="servicio-tag">Perros · Gatos · Conejos</span>
+        </div>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-img">
+          <span class="servicio-emoji">🛡️</span>
+        </div>
+        <div class="servicio-body">
+          <h3>Desparasitación</h3>
+          <p>Tratamientos internos y externos adaptados a cada mascota.</p>
+          <span class="servicio-tag">Perros · Gatos · Aves</span>
+        </div>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-img">
+          <span class="servicio-emoji">🔬</span>
+        </div>
+        <div class="servicio-body">
+          <h3>Laboratorio</h3>
+          <p>Toma de muestras en tu hogar. Resultados en 24–48 horas.</p>
+          <span class="servicio-tag">Todas las especies</span>
+        </div>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-img">
+          <span class="servicio-emoji">🚨</span>
+        </div>
+        <div class="servicio-body">
+          <h3>Urgencias</h3>
+          <p>Atención de urgencias las 24 h, menos de 60 minutos de llegada.</p>
+          <span class="servicio-tag">Disponible 24/7</span>
+        </div>
+      </article>
+
+      <article class="servicio-card">
+        <div class="servicio-img">
+          <span class="servicio-emoji">🥩</span>
+        </div>
+        <div class="servicio-body">
+          <h3>Nutrición</h3>
+          <p>Dietas personalizadas según edad, raza y estado de salud.</p>
+          <span class="servicio-tag">Perros · Gatos</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="planes" id="planes">
+  <div class="planes-container">
+    <div class="planes-header">
+      <span class="section-label">Tarifas</span>
       <h2>Planes y precios</h2>
-      <table>
+      <p>Elige el plan que mejor se adapta a tu mascota.</p>
+    </div>
+    <div class="tabla-wrapper">
+      <table class="tabla-planes">
         <thead>
           <tr>
             <th scope="col">Servicio</th>
-            <th scope="col">Básico $15.990</th>
-            <th scope="col">Plus $28.990</th>
-            <th scope="col">Premium $44.990</th>
+            <th scope="col">Básico<span class="plan-price">$15.990</span></th>
+            <th scope="col" class="plan-destacado">Plus<span class="plan-price">$28.990</span></th>
+            <th scope="col">Premium<span class="plan-price">$44.990</span></th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>Consulta general</td>
-            <td>✓</td><td>✓</td><td>✓</td>
+            <td class="check">✓</td>
+            <td class="check plan-destacado">✓</td>
+            <td class="check">✓</td>
           </tr>
           <tr>
             <td>Vacuna incluida</td>
-            <td>—</td><td>✓</td><td>✓</td>
+            <td class="cross">—</td>
+            <td class="check plan-destacado">✓</td>
+            <td class="check">✓</td>
           </tr>
           <tr>
             <td>Desparasitación</td>
-            <td>—</td><td>✓</td><td>✓</td>
+            <td class="cross">—</td>
+            <td class="check plan-destacado">✓</td>
+            <td class="check">✓</td>
           </tr>
           <tr>
             <td>Examen de laboratorio</td>
-            <td>—</td><td>—</td><td>✓</td>
+            <td class="cross">—</td>
+            <td class="cross plan-destacado">—</td>
+            <td class="check">✓</td>
           </tr>
           <tr>
             <td>Informe médico digital</td>
-            <td>✓</td><td>✓</td><td>✓</td>
+            <td class="check">✓</td>
+            <td class="check plan-destacado">✓</td>
+            <td class="check">✓</td>
           </tr>
           <tr>
             <td>Consulta de seguimiento</td>
-            <td>—</td><td>—</td><td>✓</td>
+            <td class="cross">—</td>
+            <td class="cross plan-destacado">—</td>
+            <td class="check">✓</td>
           </tr>
         </tbody>
       </table>
-    </section>
+    </div>
+    <p class="tabla-nota">* Precios en CLP, IVA incluido. Vigentes para la Región Metropolitana.</p>
+  </div>
+</section>
 
     <section id="testimonios">
       <h2>Lo que dicen nuestros clientes</h2>
