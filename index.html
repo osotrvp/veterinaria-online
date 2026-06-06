@@ -254,83 +254,236 @@
   </div>
 </section>
 
-    <section id="testimonios">
+    <section class="testimonios" id="testimonios">
+  <div class="testimonios-container">
+    <div class="testimonios-header">
+      <span class="section-label">Opiniones</span>
       <h2>Lo que dicen nuestros clientes</h2>
-      <article>
-        <p>"Mi gata Luna es muy nerviosa. Con VetCasa el veterinario
-        la revisó en su cama favorita."</p>
-        <strong>Valentina M. — Las Condes</strong>
-      </article>
-      <article>
-        <p>"El Dr. Rodríguez vino en 45 minutos cuando mi perro tuvo
-        una reacción alérgica a medianoche."</p>
-        <strong>Rodrigo F. — Providencia</strong>
-      </article>
-      <article>
-        <p>"Tenemos tres perros. Ahora los tres se vacunan en casa
-        en una sola visita."</p>
-        <strong>Carla y José T. — Ñuñoa</strong>
+    </div>
+
+    <div class="testimonios-grid">
+
+      <article class="testimonio-card">
+        <div class="testimonio-estrellas">★★★★★</div>
+        <blockquote>
+          <p>"Mi gata Luna es muy nerviosa. Con VetCasa el veterinario
+          la revisó en su cama favorita."</p>
+        </blockquote>
+        <footer class="testimonio-autor">
+          <div class="autor-avatar">👩</div>
+          <div>
+            <strong>Valentina M.</strong>
+            <span>Las Condes · Dueña de Luna 🐱</span>
+          </div>
+        </footer>
       </article>
 
+      <article class="testimonio-card">
+        <div class="testimonio-estrellas">★★★★★</div>
+        <blockquote>
+          <p>"El Dr. Rodríguez vino en 45 minutos cuando mi perro tuvo
+          una reacción alérgica a medianoche."</p>
+        </blockquote>
+        <footer class="testimonio-autor">
+          <div class="autor-avatar">👨</div>
+          <div>
+            <strong>Rodrigo F.</strong>
+            <span>Providencia · Dueño de Toby 🐶</span>
+          </div>
+        </footer>
+      </article>
+
+      <article class="testimonio-card">
+        <div class="testimonio-estrellas">★★★★★</div>
+        <blockquote>
+          <p>"Tenemos tres perros. Ahora los tres se vacunan en casa
+          en una sola visita. Súper conveniente."</p>
+        </blockquote>
+        <footer class="testimonio-autor">
+          <div class="autor-avatar">👩</div>
+          <div>
+            <strong>Carla y José T.</strong>
+            <span>Ñuñoa · Dueños de Max, Coco y Balu 🐾</span>
+          </div>
+        </footer>
+      </article>
+
+    </div>
+
+    <div class="equipo">
       <h3>Nuestro equipo</h3>
-      <div>
-        <p>👩‍⚕️ <strong>Dra. Isabel Rojas</strong> — Medicina Interna, 10 años exp.</p>
-        <p>👨‍⚕️ <strong>Dr. Matías Rodríguez</strong> — Urgencias, 7 años exp.</p>
-        <p>👩‍⚕️ <strong>Dra. Camila Vega</strong> — Nutrición animal, 5 años exp.</p>
-        <p>👨‍⚕️ <strong>Dr. Andrés Fuentes</strong> — Dermatología, 8 años exp.</p>
-      </div>
-    </section>
+      <div class="equipo-grid">
 
-    <section id="contacto">
-      <h2>Contáctanos</h2>
-      <p>📞 +56 9 1234 5678</p>
-      <p>📧 hola@vetcasa.cl</p>
-      <p>🕐 Lun–Sáb: 8:00–20:00 · Urgencias: 24 h</p>
-
-      <form id="reservaForm" novalidate>
-
-        <label for="nombre">Nombre completo</label>
-        <input type="text" id="nombre" name="nombre"
-               placeholder="Tu nombre completo" />
-        <span id="errNombre"></span>
-
-        <label for="email">Correo electrónico</label>
-        <input type="email" id="email" name="email"
-               placeholder="tu@correo.cl" />
-        <span id="errEmail"></span>
-
-        <label for="asunto">Asunto</label>
-        <select id="asunto" name="asunto">
-          <option value="">— Selecciona un motivo —</option>
-          <option value="consulta">Consulta general</option>
-          <option value="vacunacion">Vacunación</option>
-          <option value="urgencia">Urgencia</option>
-          <option value="laboratorio">Examen de laboratorio</option>
-          <option value="otro">Otro</option>
-        </select>
-        <span id="errAsunto"></span>
-
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" rows="5"
-                  placeholder="Cuéntanos sobre tu mascota..."></textarea>
-        <span id="errMensaje"></span>
-
-        <button type="submit">Enviar solicitud</button>
-        <div id="mensajeExito" hidden>
-          ✅ ¡Solicitud enviada! Te contactaremos pronto.
+        <div class="equipo-card">
+          <div class="equipo-avatar">👩‍⚕️</div>
+          <strong>Dra. Isabel Rojas</strong>
+          <span>Medicina Interna · 10 años exp.</span>
         </div>
 
-      </form>
-    </section>
+        <div class="equipo-card">
+          <div class="equipo-avatar">👨‍⚕️</div>
+          <strong>Dr. Matías Rodríguez</strong>
+          <span>Urgencias · 7 años exp.</span>
+        </div>
+
+        <div class="equipo-card">
+          <div class="equipo-avatar">👩‍⚕️</div>
+          <strong>Dra. Camila Vega</strong>
+          <span>Nutrición animal · 5 años exp.</span>
+        </div>
+
+        <div class="equipo-card">
+          <div class="equipo-avatar">👨‍⚕️</div>
+          <strong>Dr. Andrés Fuentes</strong>
+          <span>Dermatología · 8 años exp.</span>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contacto" id="contacto">
+  <div class="contacto-container">
+    <div class="contacto-grid">
+
+      <div class="contacto-info">
+        <span class="section-label">Reserva tu hora</span>
+        <h2>Contáctanos</h2>
+        <p>Agenda una visita o escríbenos. Respondemos en menos de 2 horas.</p>
+        <ul class="info-list">
+          <li>
+            <span>📞</span>
+            <div>
+              <strong>Teléfono / WhatsApp</strong>
+              <a href="tel:+56912345678">+56 9 1234 5678</a>
+            </div>
+          </li>
+          <li>
+            <span>📧</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hola@vetcasa.cl">hola@vetcasa.cl</a>
+            </div>
+          </li>
+          <li>
+            <span>🕐</span>
+            <div>
+              <strong>Horario de atención</strong>
+              <span>Lun–Sáb: 8:00–20:00 · Urgencias: 24 h</span>
+            </div>
+          </li>
+          <li>
+            <span>📍</span>
+            <div>
+              <strong>Cobertura</strong>
+              <span>Región Metropolitana</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contacto-form-wrapper">
+        <form id="reservaForm" novalidate>
+
+          <div class="form-group">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" class="form-input"
+                   placeholder="Tu nombre completo" />
+            <span class="form-error" id="errNombre"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" id="email" name="email" class="form-input"
+                   placeholder="tu@correo.cl" />
+            <span class="form-error" id="errEmail"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="asunto" class="form-label">Asunto</label>
+            <select id="asunto" name="asunto" class="form-input">
+              <option value="">— Selecciona un motivo —</option>
+              <option value="consulta">Consulta general</option>
+              <option value="vacunacion">Vacunación</option>
+              <option value="urgencia">Urgencia</option>
+              <option value="laboratorio">Examen de laboratorio</option>
+              <option value="otro">Otro</option>
+            </select>
+            <span class="form-error" id="errAsunto"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" class="form-input form-textarea"
+                      placeholder="Cuéntanos sobre tu mascota..." rows="5"></textarea>
+            <span class="form-error" id="errMensaje"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Enviar solicitud →
+          </button>
+
+          <div id="mensajeExito" class="form-exito" hidden>
+            ✅ <strong>¡Solicitud enviada!</strong> Te contactaremos pronto.
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
 
   </main>
 
-  <footer>
-    <p>🐾 VetCasa — Veterinaria a Domicilio</p>
-    <p>+56 9 1234 5678 · hola@vetcasa.cl</p>
-    <p>Lun–Sáb: 8:00–20:00 · Urgencias: 24 h</p>
-    <p>&copy; 2025 VetCasa. Todos los derechos reservados.</p>
-  </footer>
+  <footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="#inicio" class="footer-logo">🐾 VetCasa</a>
+        <p>Veterinaria profesional a domicilio en toda la Región Metropolitana.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Consulta general</a></li>
+          <li><a href="#servicios">Vacunación</a></li>
+          <li><a href="#servicios">Urgencias 24 h</a></li>
+          <li><a href="#servicios">Laboratorio</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-contact">
+        <h4>Contacto</h4>
+        <p><a href="tel:+56912345678">+56 9 1234 5678</a></p>
+        <p><a href="mailto:hola@vetcasa.cl">hola@vetcasa.cl</a></p>
+        <p>Lun–Sáb: 8:00–20:00</p>
+        <p>Urgencias: 24 h</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Redes sociales</h4>
+        <div class="social-links">
+          <a href="#" class="social-link">📷 Instagram</a>
+          <a href="#" class="social-link">👍 Facebook</a>
+          <a href="#" class="social-link">💬 WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 VetCasa — Veterinaria a Domicilio. Todos los derechos reservados.</p>
+      <p>Santiago, Chile</p>
+    </div>
+  </div>
+</footer>
+
+  <script src="src/js/form.js"></script>
+  <script src="src/js/nav.js"></script>
 
 </body>
 </html>
