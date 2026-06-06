@@ -6,7 +6,7 @@ a domicilio en la Región Metropolitana de Santiago.
 ## Estructura de carpetas
 
 ```
-EVA-1-FRONT-END/
+veterinaria-online/
 ├── index.html
 ├── README.md
 ├── .gitignore
@@ -27,4 +27,4 @@ No requiere servidor ni dependencias.
 
 ## URL del repositorio
 
-https://github.com/osotrvp/EVA-1-FRONT-END
+https://github.com/osotrvp/veterinaria-online
