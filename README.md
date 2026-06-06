@@ -22,3 +22,7 @@ veterinaria-online/
 
 Abrir index.html directamente en el navegador.
 No requiere servidor ni dependencias.
+
+## URL del repositorio
+
+https://github.com/osotrvp/EVA-1-FRONT-END
