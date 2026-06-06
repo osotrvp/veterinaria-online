@@ -5,7 +5,7 @@ a domicilio en la Región Metropolitana de Santiago.
 
 ## Estructura de carpetas
 
-veterinaria-online/
+EVA-1-FRONT-END/
 ├── index.html
 ├── README.md
 ├── .gitignore
