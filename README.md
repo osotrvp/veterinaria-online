@@ -5,6 +5,7 @@ a domicilio en la Región Metropolitana de Santiago.
 
 ## Estructura de carpetas
 
+```
 EVA-1-FRONT-END/
 ├── index.html
 ├── README.md
@@ -17,6 +18,7 @@ EVA-1-FRONT-END/
     │   ├── form.js
     │   └── nav.js
     └── assets/
+```
 
 ## Cómo visualizar
 
