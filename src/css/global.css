@@ -363,7 +363,7 @@ p:last-child { margin-bottom: 0; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   :root { --font-size-base: 16px; }
 
   .nav-toggle { display: flex; }
@@ -390,4 +390,8 @@ p:last-child { margin-bottom: 0; }
 
 @media (max-width: 480px) {
   .btn { padding: .65rem 1.3rem; font-size: .9rem; }
+}
+.nav-logo {
+  width: 80px;
+  height: auto;
 }
